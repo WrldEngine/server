@@ -31,6 +31,11 @@ class Client(db.Model):
 
     def __repr__(self, id):
         return '<Client %r>' % self.id
+    
+class Chat(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    msg_author = db.Column(db.String)
+    msg_content = db.Column(db.String)
 
 @app.route("/")
 @app.route("/main")
