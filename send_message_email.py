@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 #igry5302@gmail.com
 def send_to_email(main_content, toEmail, subject):
     acc_EMAIL = 'medianait.academy.uz@gmail.com'
-    acc_PASSWORD = 'tcmlqznbpafrzjam'
+    acc_PASSWORD = '<passw>'
 
     blank = MIMEMultipart()
     blank['Subject'] = subject
