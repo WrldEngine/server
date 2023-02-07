@@ -5,7 +5,6 @@ from flask_socketio import SocketIO, send, emit
 
 from get import stat_rec
 
-import csv
 import send_message_email
 import datetime
 
